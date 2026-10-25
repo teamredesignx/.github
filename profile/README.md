@@ -5,6 +5,7 @@
 <p align="center">
   <a href="mailto:contact@teamredesign.com"><img src="https://img.shields.io/badge/Start_a_project-2EBD74?style=for-the-badge&logo=gmail&logoColor=030A06&labelColor=030A06" alt="Start a project" /></a>
   <a href="https://github.com/teamredesignx"><img src="https://img.shields.io/badge/Follow_on_GitHub-1A9E7C?style=for-the-badge&logo=github&logoColor=white&labelColor=030A06" alt="Follow on GitHub" /></a>
+  <a href="https://www.tiktok.com/@teamredesignx"><img src="https://img.shields.io/badge/Follow_on_TikTok-6FAE3B?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=030A06" alt="Follow on TikTok" /></a>
   <a href="https://sazzadali-portfolio.vercel.app"><img src="https://img.shields.io/badge/Lead_Engineer-B5D86A?style=for-the-badge&logo=googlechrome&logoColor=030A06&labelColor=030A06" alt="Lead engineer portfolio" /></a>
 </p>
 
