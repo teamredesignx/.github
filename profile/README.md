@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/logo-animated.gif" width="560" alt="Team Redesign animated logo" />
-</p>
-
-<p align="center">
   <img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/header.svg" width="100%" alt="Team Redesign: we redesign and architect websites" />
 </p>
 

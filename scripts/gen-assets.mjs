@@ -26,6 +26,8 @@ const wrap = (text, n) => {
 const panel = (w, h, r = 22, stroke = '#2EBD74') => `<rect x=".75" y=".75" width="${w - 1.5}" height="${h - 1.5}" rx="${r}" fill="none" stroke="${stroke}" stroke-opacity=".5" stroke-width="1.5"/>`;
 
 // ---------- header ----------
+// Animated logo (built by scripts/build-logo.py) is embedded so the hero stays a single image.
+const logoGif = fs.readFileSync(out + 'logo-hero.gif').toString('base64');
 write('header.svg', svg(1200, 420, 'Team Redesign: we redesign and architect websites', `
 <clipPath id="r"><rect width="1200" height="420" rx="22"/></clipPath>
 <g clip-path="url(#r)"><rect width="1200" height="420" fill="url(#bg)"/>
@@ -37,13 +39,15 @@ write('header.svg', svg(1200, 420, 'Team Redesign: we redesign and architect web
 <g transform="translate(1040 210)" fill="none" stroke="#fff" stroke-opacity=".18"><circle r="64"/><circle r="108" stroke-dasharray="3 9"/><circle r="150" stroke-opacity=".1"/>
 <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/><circle cx="108" r="7" fill="#2EBD74" stroke="none"/></g>
 <g><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="34s" repeatCount="indefinite"/><circle cx="150" r="6" fill="#B5D86A" stroke="none"/></g></g>
-<g transform="translate(70 80)">
+<g transform="translate(70 44)">
 <rect width="230" height="46" rx="23" fill="#2EBD74" fill-opacity=".16" stroke="#2EBD74" stroke-opacity=".7"/>
 <circle cx="24" cy="23" r="6" fill="#3DE08A"><animate attributeName="opacity" values="1;.2;1" dur="2s" repeatCount="indefinite"/></circle>
 <text x="46" y="31" ${mono} font-size="22" font-weight="700" fill="#E2FF7A" letter-spacing="2">WEB STUDIO</text></g>
-<text x="66" y="250" ${font} font-size="104" font-weight="800" fill="url(#g)" letter-spacing="-3">Team Redesign</text>
-<text x="70" y="316" ${font} font-size="42" font-weight="600" fill="#fff">We redesign and architect websites.</text>
-<text x="70" y="372" ${mono} font-size="26" fill="#E2FF7A">Next.js · React · TypeScript · Tailwind · GSAP</text></g>
+<clipPath id="lc"><rect x="70" y="110" width="660" height="189" rx="24"/></clipPath>
+<image href="data:image/gif;base64,${logoGif}" x="70" y="110" width="660" height="189" clip-path="url(#lc)" preserveAspectRatio="xMidYMid slice"/>
+<rect x="70.75" y="110.75" width="658.5" height="187.5" rx="24" fill="none" stroke="#3DE08A" stroke-opacity=".45" stroke-width="1.5"/>
+<text x="70" y="352" ${font} font-size="38" font-weight="600" fill="#fff">We redesign and architect websites.</text>
+<text x="70" y="394" ${mono} font-size="24" fill="#E2FF7A">Next.js · React · TypeScript · Tailwind · GSAP</text></g>
 <rect x=".75" y=".75" width="1198.5" height="418.5" rx="22" fill="none" stroke="#2EBD74" stroke-opacity=".35" stroke-width="1.5"/>`));
 
 write('divider.svg', `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="20" viewBox="0 0 1200 20" role="presentation"><defs><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#2EBD74" stop-opacity="0"/><stop offset=".5" stop-color="#2EBD74"/><stop offset="1" stop-color="#2EBD74" stop-opacity="0"/></linearGradient></defs><rect y="9" width="1200" height="2" fill="url(#l)"/><circle cy="10" r="4" fill="#B5D86A"><animate attributeName="cx" values="0;1200" dur="6s" repeatCount="indefinite"/></circle></svg>`);
