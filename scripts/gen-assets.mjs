@@ -1,4 +1,4 @@
-﻿import fs from 'fs';
+import fs from 'fs';
 fs.mkdirSync('assets', { recursive: true });
 const out = 'assets/';
 const font = `font-family="'Segoe UI',Helvetica,Arial,sans-serif"`;
@@ -92,5 +92,5 @@ fs.writeFileSync(out + 'stack.svg', `<svg xmlns="http://www.w3.org/2000/svg" wid
 
 fs.writeFileSync(out + 'footer.svg', `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Let us redesign your website">${defs}<clipPath id="r"><rect width="1200" height="220" rx="22"/></clipPath><g clip-path="url(#r)"><rect width="1200" height="220" fill="url(#bg)"/><rect width="1200" height="220" fill="url(#d)"/><g filter="url(#b)"><ellipse cx="300" cy="200" rx="300" ry="90" fill="#2EBD74" fill-opacity=".5"><animateTransform attributeName="transform" type="translate" values="0 0;400 -20;0 0" dur="14s" repeatCount="indefinite"/></ellipse><ellipse cx="900" cy="20" rx="280" ry="80" fill="#6FAE3B" fill-opacity=".4"/></g>
 <text x="600" y="108" text-anchor="middle" ${font} font-size="48" font-weight="800" fill="url(#g)" letter-spacing="-1">Let's redesign your website.</text>
-<text x="600" y="150" text-anchor="middle" ${mono} font-size="15" fill="#B5D86A">teamredesignx@gmail.com</text></g></svg>`);
+<text x="600" y="150" text-anchor="middle" ${mono} font-size="15" fill="#B5D86A">contact@teamredesign.com</text></g></svg>`);
 

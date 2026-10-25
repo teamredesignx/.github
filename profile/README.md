@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="mailto:teamredesignx@gmail.com"><img src="https://img.shields.io/badge/Start_a_project-2EBD74?style=for-the-badge&logo=gmail&logoColor=030A06&labelColor=030A06" alt="Start a project" /></a>
+  <a href="mailto:contact@teamredesign.com"><img src="https://img.shields.io/badge/Start_a_project-2EBD74?style=for-the-badge&logo=gmail&logoColor=030A06&labelColor=030A06" alt="Start a project" /></a>
   <a href="https://github.com/teamredesignx"><img src="https://img.shields.io/badge/Follow_on_GitHub-1A9E7C?style=for-the-badge&logo=github&logoColor=white&labelColor=030A06" alt="Follow on GitHub" /></a>
   <a href="https://sazzadali-portfolio.vercel.app"><img src="https://img.shields.io/badge/Lead_Engineer-B5D86A?style=for-the-badge&logo=googlechrome&logoColor=030A06&labelColor=030A06" alt="Lead engineer portfolio" /></a>
 </p>
@@ -27,7 +27,7 @@
   </tr>
   <tr>
     <td width="50%" valign="top"><a href="https://sitebazaar.vercel.app"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/p-sitebazaar.svg" alt="SiteBazaar website marketplace" /></a><br/><a href="https://sitebazaar.vercel.app"><img src="https://img.shields.io/badge/%E2%96%B6%20Live-5FBF86?style=flat-square&labelColor=030A06" alt="Live" /></a> <a href="https://github.com/ali-sazzad/sitebazaar"><img src="https://img.shields.io/badge/Source-08170F?style=flat-square&logo=github" alt="Source" /></a></td>
-    <td width="50%" valign="top"><a href="mailto:teamredesignx@gmail.com?subject=Website%20redesign"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/p-next.svg" alt="Your site is next" /></a></td>
+    <td width="50%" valign="top"><a href="mailto:contact@teamredesign.com?subject=Website%20redesign"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/p-next.svg" alt="Your site is next" /></a></td>
   </tr>
 </table>
 
