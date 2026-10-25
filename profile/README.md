@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=700&color=2EBD74&center=true&vCenter=true&width=640&lines=Slow+site%3F+We+make+it+fast.;Dated+design%3F+We+make+it+unforgettable.;Messy+structure%3F+We+architect+it+clean.;Redesigns+that+turn+visitors+into+customers." alt="Slow site? We make it fast. Dated design? We make it unforgettable." />
+  <img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/tagline.svg" width="100%" alt="Slow site? We make it fast. Dated design? We make it unforgettable." />
 </p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/divider.svg" width="100%" alt="" /></p>
