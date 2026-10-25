@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/header.svg" width="100%" alt="Team Redesign: we redesign and architect websites" />
+  <img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/header.svg?v=2" width="100%" alt="Team Redesign: we redesign and architect websites" />
 </p>
 
 <p align="center">
