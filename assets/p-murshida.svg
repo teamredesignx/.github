@@ -1,15 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="230" viewBox="0 0 560 230" role="img" aria-label="Murshida Portfolio: Portfolio · Astrology"><defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="340" viewBox="0 0 560 340" role="img" aria-label="Murshida Portfolio: Portfolio · Astrology"><defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#010403"/><stop offset="1" stop-color="#03120A"/></linearGradient>
 <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3DE08A"/><stop offset=".5" stop-color="#2FE0B0"/><stop offset="1" stop-color="#E2FF7A"/></linearGradient>
 <filter id="b" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55"/></filter>
 <pattern id="d" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#fff" fill-opacity=".09"/></pattern></defs>
-<clipPath id="r"><rect width="560" height="230" rx="18"/></clipPath>
-<g clip-path="url(#r)"><rect width="560" height="230" fill="url(#bg)"/><rect width="560" height="230" fill="url(#d)"/>
-<g filter="url(#b)"><ellipse cx="480" cy="30" rx="130" ry="70" fill="#1A9E7C" fill-opacity=".28"><animateTransform attributeName="transform" type="translate" values="0 0;-60 30;0 0" dur="10s" repeatCount="indefinite"/></ellipse></g>
-<rect width="6" height="230" fill="#1A9E7C"/>
-<text x="28" y="48" font-family="'JetBrains Mono',Consolas,monospace" font-size="18" font-weight="700" fill="#1A9E7C" letter-spacing="2">02 / PORTFOLIO · ASTROLOGY</text>
-<text x="28" y="104" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="44" font-weight="800" fill="#fff" letter-spacing="-1">Murshida Portfolio</text>
-<text x="28" y="142" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#fff" fill-opacity="1">Calm, elegant portfolio redesign with fast static output.</text>
-<g transform="translate(28 162)"><rect width="85" height="32" rx="16" fill="#1A9E7C" fill-opacity=".12" stroke="#1A9E7C" stroke-opacity=".5"/><text x="42.5" y="21" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="16" font-weight="700" fill="#ffffff">Astro</text></g><g transform="translate(123 162)"><rect width="85" height="32" rx="16" fill="#1A9E7C" fill-opacity=".12" stroke="#1A9E7C" stroke-opacity=".5"/><text x="42.5" y="21" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="16" font-weight="700" fill="#ffffff">React</text></g><g transform="translate(218 162)"><rect width="118" height="32" rx="16" fill="#1A9E7C" fill-opacity=".12" stroke="#1A9E7C" stroke-opacity=".5"/><text x="59" y="21" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="16" font-weight="700" fill="#ffffff">Tailwind</text></g>
-<text x="28" y="218" font-family="'JetBrains Mono',Consolas,monospace" font-size="16" font-weight="700" fill="#1A9E7C">VIEW LIVE ↗</text></g>
-<rect x=".5" y=".5" width="559" height="229" rx="18" fill="none" stroke="#1A9E7C" stroke-opacity=".3"/></svg>
+<clipPath id="r"><rect width="560" height="340" rx="18"/></clipPath>
+<g clip-path="url(#r)"><rect width="560" height="340" fill="url(#bg)"/><rect width="560" height="340" fill="url(#d)"/>
+<g filter="url(#b)"><ellipse cx="480" cy="30" rx="130" ry="70" fill="#2FE0B0" fill-opacity=".28"><animateTransform attributeName="transform" type="translate" values="0 0;-60 30;0 0" dur="10s" repeatCount="indefinite"/></ellipse></g>
+<rect width="8" height="340" fill="#2FE0B0"/>
+<text x="32" y="50" font-family="'JetBrains Mono',Consolas,monospace" font-size="20" font-weight="700" fill="#2FE0B0" letter-spacing="1.5">02 / PORTFOLIO · ASTROLOGY</text>
+<text x="32" y="112" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="48" font-weight="800" fill="#fff" letter-spacing="-1">Murshida Portfolio</text>
+<text x="32" y="158" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="27" fill="#fff">Calm, elegant portfolio redesign</text><text x="32" y="192" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="27" fill="#fff">with fast static output.</text>
+<g transform="translate(32 244)"><rect width="101" height="44" rx="22" fill="#2FE0B0" fill-opacity=".16" stroke="#2FE0B0" stroke-opacity=".75" stroke-width="1.5"/><text x="50.5" y="29" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="20" font-weight="700" fill="#fff">Astro</text></g><g transform="translate(143 244)"><rect width="101" height="44" rx="22" fill="#2FE0B0" fill-opacity=".16" stroke="#2FE0B0" stroke-opacity=".75" stroke-width="1.5"/><text x="50.5" y="29" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="20" font-weight="700" fill="#fff">React</text></g><g transform="translate(254 244)"><rect width="140" height="44" rx="22" fill="#2FE0B0" fill-opacity=".16" stroke="#2FE0B0" stroke-opacity=".75" stroke-width="1.5"/><text x="70" y="29" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="20" font-weight="700" fill="#fff">Tailwind</text></g>
+<text x="32" y="322" font-family="'JetBrains Mono',Consolas,monospace" font-size="22" font-weight="700" fill="#2FE0B0">VIEW LIVE ↗</text></g>
+<rect x=".75" y=".75" width="558.5" height="338.5" rx="18" fill="none" stroke="#2FE0B0" stroke-opacity=".5" stroke-width="1.5"/></svg>
