@@ -6,7 +6,6 @@ fs.mkdirSync('assets', { recursive: true });
 const out = 'assets/';
 const font = `font-family="'Segoe UI',Helvetica,Arial,sans-serif"`;
 const mono = `font-family="'JetBrains Mono',Consolas,monospace"`;
-const BG = '#010403';
 const defs = `<defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#010403"/><stop offset="1" stop-color="#03120A"/></linearGradient>
 <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3DE08A"/><stop offset=".5" stop-color="#2FE0B0"/><stop offset="1" stop-color="#E2FF7A"/></linearGradient>
@@ -24,7 +23,7 @@ const wrap = (text, n) => {
   if (cur) lines.push(cur);
   return lines;
 };
-const panel = (w, h, r = 22, stroke = '#2EBD74') => `<rect x=".75" y=".75" width="${w - 1.5}" height="${h - 1.5}" rx="${r}" fill="${BG}" stroke="${stroke}" stroke-opacity=".5" stroke-width="1.5"/>`;
+const panel = (w, h, r = 22, stroke = '#2EBD74') => `<rect x=".75" y=".75" width="${w - 1.5}" height="${h - 1.5}" rx="${r}" fill="none" stroke="${stroke}" stroke-opacity=".5" stroke-width="1.5"/>`;
 
 // ---------- header ----------
 write('header.svg', svg(1200, 420, 'Team Redesign: we redesign and architect websites', `
@@ -47,7 +46,7 @@ write('header.svg', svg(1200, 420, 'Team Redesign: we redesign and architect web
 <text x="70" y="372" ${mono} font-size="26" fill="#E2FF7A">Next.js · React · TypeScript · Tailwind · GSAP</text></g>
 <rect x=".75" y=".75" width="1198.5" height="418.5" rx="22" fill="none" stroke="#2EBD74" stroke-opacity=".35" stroke-width="1.5"/>`));
 
-write('divider.svg', `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="20" viewBox="0 0 1200 20" role="presentation"><rect width="1200" height="20" fill="${BG}"/><defs><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#2EBD74" stop-opacity="0"/><stop offset=".5" stop-color="#2EBD74"/><stop offset="1" stop-color="#2EBD74" stop-opacity="0"/></linearGradient></defs><rect y="9" width="1200" height="2" fill="url(#l)"/><circle cy="10" r="4" fill="#B5D86A"><animate attributeName="cx" values="0;1200" dur="6s" repeatCount="indefinite"/></circle></svg>`);
+write('divider.svg', `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="20" viewBox="0 0 1200 20" role="presentation"><defs><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#2EBD74" stop-opacity="0"/><stop offset=".5" stop-color="#2EBD74"/><stop offset="1" stop-color="#2EBD74" stop-opacity="0"/></linearGradient></defs><rect y="9" width="1200" height="2" fill="url(#l)"/><circle cy="10" r="4" fill="#B5D86A"><animate attributeName="cx" values="0;1200" dur="6s" repeatCount="indefinite"/></circle></svg>`);
 
 // ---------- rotating tagline ----------
 const lines = ['Slow site? We make it fast.', 'Dated design? We make it unforgettable.', 'Messy structure? We architect it clean.', 'Redesigns that turn visitors into customers.'];
@@ -137,3 +136,19 @@ write('footer.svg', svg(1200, 260, 'Let us redesign your website', `<clipPath id
 <text x="600" y="120" text-anchor="middle" ${font} font-size="68" font-weight="800" fill="url(#g)" letter-spacing="-1">Let's redesign your website.</text>
 <text x="600" y="190" text-anchor="middle" ${mono} font-size="34" font-weight="700" fill="#E2FF7A">contact@teamredesign.com</text></g>
 <rect x=".75" y=".75" width="1198.5" height="258.5" rx="22" fill="none" stroke="#2EBD74" stroke-opacity=".4" stroke-width="1.5"/>`));
+
+// ---------- light-theme variants ----------
+// The panel-style images have transparent backgrounds so they sit on GitHub's own page colour.
+// Dark text colours would vanish on a dark page (and vice versa), so each gets a -light twin;
+// the README serves it through <picture> + prefers-color-scheme.
+const lightMap = [
+  ['#ffffff', '#0b1f14'], ['#fff', '#0b1f14'],
+  ['#E2FF7A', '#4d6b00'], ['#2FE0B0', '#0b8f78'], ['#3DE08A', '#0a8f4f'],
+  ['#03120A', '#e6f6ed'], ['#2EBD74', '#0a8f4f'], ['#B5D86A', '#4d6b00'],
+];
+for (const f of ['divider', 'tagline', 't-why', 't-work', 't-process', 't-stack', 'stats', 'why', 'process', 'stack']) {
+  let t = fs.readFileSync(out + f + '.svg', 'utf8');
+  // keep the white dot/ring decorations only in the dark file; swap every themed colour here
+  for (const [a, b] of lightMap) t = t.split(a).join(b);
+  fs.writeFileSync(out + f + '-light.svg', t);
+}

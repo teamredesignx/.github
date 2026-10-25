@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="130" viewBox="0 0 1200 130" role="img" aria-label="Why Teams Pick Us"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#010403"/><stop offset="1" stop-color="#e6f6ed"/></linearGradient>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0a8f4f"/><stop offset=".5" stop-color="#0b8f78"/><stop offset="1" stop-color="#4d6b00"/></linearGradient>
+<filter id="b" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55"/></filter>
+<pattern id="d" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#0b1f14" fill-opacity=".09"/></pattern></defs><rect x=".75" y=".75" width="1198.5" height="128.5" rx="18" fill="none" stroke="#0a8f4f" stroke-opacity=".5" stroke-width="1.5"/>
+<text x="600" y="62" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="58" font-weight="800" fill="url(#g)">Why Teams Pick Us</text>
+<text x="600" y="108" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="600" fill="#4d6b00">Three things we obsess over</text></svg>

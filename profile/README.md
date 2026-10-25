@@ -9,19 +9,19 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/tagline.svg" width="100%" alt="Slow site? We make it fast. Dated design? We make it unforgettable." />
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/tagline-light.svg" /><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/tagline.svg" width="100%" alt="Slow site? We make it fast. Dated design? We make it unforgettable." /></picture>
 </p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/divider.svg" width="100%" alt="" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/divider-light.svg" /><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/divider.svg" width="100%" alt="" /></picture></p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/stats.svg" width="100%" alt="5 live redesigns, English and Nepali bilingual builds, 100 percent open source" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/stats-light.svg" /><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/stats.svg" width="100%" alt="5 live redesigns, English and Nepali bilingual builds, 100 percent open source" /></picture></p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/t-why.svg" width="100%" alt="Why Teams Pick Us" /></p>
-<p align="center"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/why.svg" width="100%" alt="Faster, clearer, memorable websites" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/t-why-light.svg" /><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/t-why.svg" width="100%" alt="Why Teams Pick Us" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/why-light.svg" /><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/why.svg" width="100%" alt="Faster, clearer, memorable websites" /></picture></p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/divider.svg" width="100%" alt="" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/divider-light.svg" /><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/divider.svg" width="100%" alt="" /></picture></p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/t-work.svg" width="100%" alt="Selected Redesigns" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/t-work-light.svg" /><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/t-work.svg" width="100%" alt="Selected Redesigns" /></picture></p>
 
 <table align="center">
   <tr>
@@ -38,17 +38,17 @@
   </tr>
 </table>
 
-<p align="center"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/divider.svg" width="100%" alt="" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/divider-light.svg" /><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/divider.svg" width="100%" alt="" /></picture></p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/t-process.svg" width="100%" alt="How We Work" /></p>
-<p align="center"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/process.svg" width="100%" alt="Audit, Architect, Design, Build and Launch" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/t-process-light.svg" /><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/t-process.svg" width="100%" alt="How We Work" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/process-light.svg" /><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/process.svg" width="100%" alt="Audit, Architect, Design, Build and Launch" /></picture></p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/divider.svg" width="100%" alt="" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/divider-light.svg" /><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/divider.svg" width="100%" alt="" /></picture></p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/t-stack.svg" width="100%" alt="Our Toolkit" /></p>
-<p align="center"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/stack.svg" width="100%" alt="Next.js, React, TypeScript, Tailwind, GSAP, Three.js, Astro, Vercel, Figma" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/t-stack-light.svg" /><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/t-stack.svg" width="100%" alt="Our Toolkit" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/stack-light.svg" /><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/stack.svg" width="100%" alt="Next.js, React, TypeScript, Tailwind, GSAP, Three.js, Astro, Vercel, Figma" /></picture></p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/divider.svg" width="100%" alt="" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/divider-light.svg" /><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/divider.svg" width="100%" alt="" /></picture></p>
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/footer.svg"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/footer.svg" width="100%" alt="Let's redesign your website" /></a>

@@ -2,6 +2,6 @@
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#010403"/><stop offset="1" stop-color="#03120A"/></linearGradient>
 <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3DE08A"/><stop offset=".5" stop-color="#2FE0B0"/><stop offset="1" stop-color="#E2FF7A"/></linearGradient>
 <filter id="b" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55"/></filter>
-<pattern id="d" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#fff" fill-opacity=".09"/></pattern></defs><rect x=".75" y=".75" width="1198.5" height="128.5" rx="18" fill="#010403" stroke="#2EBD74" stroke-opacity=".5" stroke-width="1.5"/>
+<pattern id="d" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#fff" fill-opacity=".09"/></pattern></defs><rect x=".75" y=".75" width="1198.5" height="128.5" rx="18" fill="none" stroke="#2EBD74" stroke-opacity=".5" stroke-width="1.5"/>
 <text x="600" y="62" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="58" font-weight="800" fill="url(#g)">Why Teams Pick Us</text>
 <text x="600" y="108" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="600" fill="#E2FF7A">Three things we obsess over</text></svg>
