@@ -14,6 +14,13 @@
 
 <p align="center"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/divider.svg" width="100%" alt="" /></p>
 
+<p align="center"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/stats.svg" width="100%" alt="5 live redesigns, English and Nepali bilingual builds, 100 percent open source" /></p>
+
+<p align="center"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/t-why.svg" width="100%" alt="Why Teams Pick Us" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/why.svg" width="100%" alt="Faster, clearer, memorable websites" /></p>
+
+<p align="center"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/divider.svg" width="100%" alt="" /></p>
+
 <p align="center"><img src="https://raw.githubusercontent.com/teamredesignx/.github/main/assets/t-work.svg" width="100%" alt="Selected Redesigns" /></p>
 
 <table align="center">
